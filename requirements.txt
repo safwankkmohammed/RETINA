@@ -1,0 +1,35 @@
+# Image Processing & OpenCV
+opencv-python
+
+# Speech Synthesis
+pyttsx3
+pyaudio  # May need portaudio dependencies installed on Pi
+
+# Time, OS (built-in, no need to install)
+# import time
+# import os
+
+# Google Coral EdgeTPU Libraries
+pycoral
+
+# NumPy (dependency of OpenCV, Coral, etc.)
+numpy
+
+# For Raspberry Pi camera access (if applicable)
+picamera  # For older Pi camera modules
+picamera2  # For newer modules, like HQ camera (optional)
+
+# If Flask/web-based components are added later
+# flask
+
+# Optional: Better threading control (you might already be using built-in threading)
+# threading2  # Not needed unless explicitly installed
+
+# For TFLite-only execution (if not using full TensorFlow)
+# tflite-runtime  # Already handled by pycoral
+
+# If you convert models manually
+# tensorflow==2.13.0  # Optional if converting YOLO or MobileNet
+
+# Optional Utilities
+imutils
